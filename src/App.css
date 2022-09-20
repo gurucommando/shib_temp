@@ -1,38 +1,1095 @@
-.App {
-  text-align: center;
+body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.upernav{
+  /* padding-top: 100px; */
+  
+  
 }
+.navbar{
+  /* position: relative !important; */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ /* background-color: #272228 !important; */
+
+
+}
+.navbar{
+ /* background-color: #272228; */
+
+}
+.nav-li{
+ margin-left: 50%;
+}
+.nav-li li{
+  position: relative;
+  margin-left: 10%;
+
+  /* margin-right: 15%; */
+}
+.nav-li li a{
   color: white;
 }
+.nav-li li a:hover{
+ color:#F17802 !important;
+}
+.navBtn{
+  width:150px;
+  height:50px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  background: linear-gradient(to right, #c11e23 0%, #d62b31 50%, #060606 50%, black 100%);
+  background-position: 100% 0;
+  transition: background-position 0.7s;
+  background-size: 200% 100%;
+}
+.navBtn:hover{
+ 
+  background-position:0 0;
+  border: none;
+}
+/* =========================================================================================================== */
+.row-1{
+  background-color: #272228;
+  /* margin-bottom: -100px; */
+  /* position: absolute;  */
+}
+.row-1 h1{
+  color: aliceblue;
+  /* line-height: 66px; */
+  font-size: 48px;
+  padding-top:20%;
+}
+.row-1 p{
+  color:#bbbbbe;
+  line-height:40px;
+  font-size: 20px;
+  margin-top: 5%;
+  /* opacity: .5; */
+  
+}
+.row-1{
+  /* padding-top:5% ; */
+}
+.row-1 .btnHow{
+  width: 160px;
+  height: 60px;
+  background-color: #F17802;
+  border-radius:200px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  
+}
+.row-1 .btnHow:hover {
+  background-color: #F00500;
+ 
+}
+.row-1 .btnBuy:hover {
+  background-position:0 0;
+  border: none;
+}
+.row-1 .moon{
+  position: relative;
+  top:2%;
+  left:25%;
+ /* margin-left: 28%; */
+ 
+}
+.row-1 .shiba{
+  position: relative;
+  margin-top:-68%;
+  left: 15%;
+  /* width: 100%; */
 
-.App-link {
-  color: #61dafb;
+}
+.row .btnBuy{
+  width: 230px;
+  height: 60px;
+  background-color:black;
+  color: white;
+  font-weight: bold;
+  border-radius:200px;
+  margin: 20px;
+  border: none;
+  background: linear-gradient(to right, #c11e23 0%, #d62b31 50%, #060606 50%, black 100%);
+  background-position: 100% 0;
+  transition: background-position 0.7s;
+  background-size: 200% 100%;
+  
+}
+/* ==========================================card============================================================== */
+.row-2{
+  background-color: #1C1B24;
+  color: white;
+  padding-top: 100px;
+  /* width: 100%; */
+}
+.row-2 h1{
+  font-weight: bold;
+}
+.row-2 .col-our{
+  width: 50%;
+}
+.row-2 .col-our p{
+  color: aliceblue;
+  line-height:30px;
+  font-size: 20px;
+  margin-top: 5%;
+  opacity: .5;
+  /* width: 90%; */
+}
+.mainCard .card{
+ padding-top: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.mainCard .card p{
+  opacity: .7;
+  position: relative;
+  width: 80%;
+  left:10%;
+  /* top:100%; */
+}
+
+/* .mainCard img{
+  width: 60%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-bottom{
+  position: relative;
+  top:-90%;
+  z-index: 2;
+} */
+/* .card-img-bottom:hover{
+  display: none;
+  text-align:center;
+} */
+.mainCard .card{
+  position: relative;
+  background-color:#18171F;
+  width: 190px;
+  height: 80%;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px black;
+  margin-top: 50px;
+  background-image: url(../public/images/card-1.svg);
+  background-repeat: no-repeat;
+  background-position-x:center;
+  background-position-y:10% ;
+  /* padding-top: 50px; */
+}
+
+.mainCard .card:hover{
+  box-shadow: none; 
+  transform: scale(.9);
+  background-image: url(../public/images/redhorse.svg);
+  background-repeat: no-repeat;
+}
+.card .card-body{
+  padding: 0;
+}
+
+.main-card-2 img{
+  width: 45%;
+  height: 45%;
+  padding:40px;
+ 
+}
+.main-card-2 .card .card-body{
+  background-color:#18171F;
+  padding: 60px;
+  line-height: 35px;
+}
+.main-card-2 .card .card-body h3{
+font-weight: bold;
+color: white;
+}
+.main-card-2 .card .card-body p{
+  color: white;
+  font-size: 18px;
+  opacity: .7;
+  
+}
+.main-card-2 .card{
+  border: none;
+  position: relative;
+  
+  /* padding-top: 50px; */
+}
+.liveBtn button{
+  background-color:#24222E;
+  width: px;
+  margin-left: 20px;
+  color: aliceblue;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: auto;
+}
+.main-card-2 .card {
+  background-color:#1B1A21;
+  /* border-radius: 20px; */
+}
+
+.row-3{
+  background-color: #1F1E29;
+  /* border-radius: 20px; */
+}
+.btnEnd{
+  width: 160px;
+  height: 60px;
+  background-color: #F17802;
+  border-radius:200px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+.btnEnd:hover{
+  background-color: #F00500;
+}
+/* ====================================== How to buy ================================== */
+
+.row-4{
+  position: relative;
+  padding-top: 10%;
+  padding-left: 5%;
+  /* padding: 10%; */
+}
+.col-circle{
+  width: 100%;
+  padding: 0px;
+  /* animation: move 30s infinite; */
+
+}
+.row-4 .col-our p{
+  color: aliceblue;
+  line-height:30px;
+  font-size: 20px;
+  margin-top: 5%;
+  opacity: .5;
+  margin: 0;
+  padding: 0;
+  /* padding: 0 5% 0 5%; */
+  width: 80%;
+}
+.row-4 .col-our h1{
+  font-weight:bold ;
+  color: white;
+  font-size:50px;
+}
+.row-4 .circle{
+  width: 80%;
+  height: 80%;
+  margin-left: 14%;
+  top:-49%;  
+  position: relative;
+  /* animation: move 30s infinite; */
+}
+.main-mini-shib{
+  position: relative;
+  animation: move 30s infinite;
+  margin-top:-108%;
+  margin-left: 6%;
+  
+}
+@keyframes move{
+  100% {transform: rotate(360deg);}
+}
+.main-mini-shib .circle-shib1{
+ left: 1%;
+ position: relative;
+ top: 15%;
+ animation: move 10s infinite;
+}
+.main-mini-shib .circle-shib2{
+  left: 50%;
+  position: absolute;
+  top:-80%;
+  animation: move 30s infinite;
+ }
+ .main-mini-shib .circle-shib3{
+  position: relative;
+  left: 69%;
+  animation: move 30s infinite;
+  position: relative;
+  margin-top: 23%;
+ }
+.row-4 .astro{
+  position: relative;
+  width: 54%;
+  height: 50%;
+  top: 17% ;
+  margin-left: 28%;
+  
+}
+.btnEnd1{
+  width: 160px;
+  height: 60px;
+  background-color: #F17802;
+  border-radius:200px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-top:5%;
+  margin-right: 2%;  
+}
+.btnEnd1:hover{
+  background-color: #F00500;
+  border: none;
+}
+.main-Buy{
+  background-color: #1C1B24;
+  /* width: 100%; */
+}
+.quick{
+  position: relative;
+  color:white;
+  font-weight: bold;
+  font-size:350%;
+  margin-top: 12%;
+  /* margin-bottom: 12%; */
+  /* font-size: 10px; */
+}
+.main-quick{
+  position: relative;
+  top:-20%;
+}
+.card-main{
+  /* height: 500px; */
+  position: relative;
+  background-color: #18171F;
+  padding-top: 5%;
+  padding-left: 10%;
+  /* padding-bottom: 10%; */
+  width: 90%;
+  height: 100%;
+ 
+}
+.yellow-line{
+  width:100px;
+  height: 1px;
+  background-color:#F17802;
+  margin-top: 20%;
+  margin-left: 15%;
+
+}
+.divider{
+  width:70%;
+  height: 2px;
+  background-color:#292831;
+  /* margin-top: 5%; */
+  /* margin-top: -300px; */
+  
+}
+.quick-num{
+  background-color: #1C1B24;
+  color: white;
+  text-align: center;
+  width: 100px;
+  font-size: 40px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: -50%;
+  
+}
+.card-text{
+  /* margin-left: 50px; */
+  width: 100%;
+  top:2%;
+  font-size: 17px;
+}
+.card-text p{
+  color: aliceblue;
+  line-height:30px;
+  font-size: 18px;
+  opacity: 0.5;
+  text-align: justify;
+}
+.card-text h2{
+  font-weight: bold;
+  color: white;
+ text-align: justify;
+
+}
+/* ========================================== shibaApp css ===================================== */
+.row-5{
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  margin-top: 15%;
+  
+  background-color:#222029;
+  height: 100%;
+  width: 100%;
+}
+.row-5 h1{
+  font-weight: bold;
+  color: white;
+}
+.row-5 p{
+  position: relative;
+  color:white;
+  width: 90%;
+  margin-top: 35px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.row-5 img{
+  width: 80%;
+  height: 80%;
+}
+
+.certik{
+  width: 90%;
+  height:100px;
+  background-color: #18171F;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 5%;
+
+}
+.certik img{
+  position: relative;
+  width: 20%;
+  height: 40%;
+  top:30%;
+  left:5%
+}
+.certik li{
+  width: 20%;
+  top:38%;
+  position: relative;
+  color: white;
+  left:12%;
+}
+.certik button{
+  position: relative;
+  border: 2px solid #F17802;
+  width:35%;
+  height:50%;
+  top:25%;
+  left:20%;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  background: transparent;
+  border-radius: 30px;
+  background: linear-gradient(to right, #F00500 0%, #F00500 50%, #060606 50%, black 100%);
+  background-position: 100% 0;
+  transition: background-position 0.7s;
+  background-size: 200% 100%;
+}
+.certik button:hover{
+  background-position:0 0;
+  
+  border: none;
+}
+.btnShibaApp{
+  position: relative;
+  border: 2px solid #F17802;
+  justify-content: center;
+  top:10%;
+  left: 30%;;
+  width:30%;
+  height:10%;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  background: transparent;
+  border-radius: 30px;
+  background: linear-gradient(to right, #F00500 0%, #F00500 50%, #060606 50%, black 100%);
+  background-position: 100% 0;
+  transition: background-position 0.7s;
+  background-size: 200% 100%; 
+}
+.btnShibaApp:hover{
+  background-position:0 0;
+  border: none;
+}
+/* =================================================== art css ===================================== */
+.art{
+  padding: 8%;
+  /* padding-top:10%; */
+  /* margin-top: 8%; */
+}
+
+.art h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  /* top:50px */
+
+}
+.art p{
+  position: relative;
+  color:white;
+  /* width: 90%; */
+  /* padding:8%; */
+  margin: 0;
+  /* bottom: 25px; */
+  top:25px;
+  font-size: 20px;
+  opacity: 0.5;
+
+}
+.slider img{
+  margin-top: 15%;
+  width: 300px;
+  height: 280px;
+  opacity: .7;
+  padding: 0;
+}
+
+/* ============================================ RESCUE CSS ======================================== */
+.btnRescue{
+  position: relative;
+  background-color:#F17802;
+  border: none;
+  width: 55%;
+  height: 22%;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  top:40%;
+  
+}
+.btnRescue:hover{
+  background-color: #c11e23;
+  border: none;
+}
+.main-candy{
+  position: relative;
+  margin-left: 10%;
+}
+.candy-1{
+  position:relative;
+  right: 10%;
+  top:25% 
+}
+.candy-2{
+  position: relative;
+  left:55%;
+  top: 25%;
+}
+.candy-3{
+  position: relative;
+  top:20%;
+  right:28%
+}
+.amazon{
+  position: relative;
+ 
+  top:25%;
+  right:20%;
+  height:25px;
+}
+/* ========================================== community  css ======================================== */
+.community{
+  background-color:#1C1B24;
+  padding-top: -20px;
+}
+
+.copy{
+  position: relative;
+  /* padding-left: 20%; */
+  width: 45%;
+  height:90px;
+  background-color: #18171F;
+  border-radius: 15px;
+  display: flex;
+  margin-left: 30%;
+  /* margin-bottom:-20%; */
+}
+.community h1{
+  padding-top: 10%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  top: 20%;
+  position: relative;
+
+}
+.community p{
+  position: relative;
+  font-size: 18px;
+  opacity: 0.7;
+  top:10%;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.copy p{
+  color:white;
+  font-size:18px;
+  font-weight:500;
+}
+.copy button{
+  position: relative;
+  border: 2px solid #F17802;
+  justify-content: center;
+  font-size: 20px;
+  top:23%;
+  left: 1%;
+  width:40%;
+  height:60%;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  background: transparent;
+  border-radius: 30px;
+}
+.copy button:hover{
+  background-color: #F00500;
+  border: none;
+}
+ /* ======================================= icons ======================================================= */
+ .main-icon{
+  position: relative;
+  background-color:#1C1B24;
+  width: 100%;
+  padding-bottom:4%;
+  justify-content: center;
+ }
+ .icons{
+  position: relative;
+  left:25%;
+  padding-top:4%;
+
+ }
+ .icons a{
+  margin-left:8%;
+  /* animation: pulse 2s infinite; */
+ }
+ .icons p{
+  position: relative;
+  color: white;
+  font-size: 10px;
+  top:15%
+ }
+.icon-text p{
+  color:#BABABD;
+  text-align: center;
+  /* margin-top: 50%; */
+  padding-top: 5%;
+  font-size: 18px;
+}
+.icons a:hover{
+  transform: scale(1.1);
+}
+
+/* ====================================== main footer ====================================================== */
+.footer{
+  /* padding-top: 10%; */
+  background-color:#18171F;
+  height:100px;
+}
+.footer-ul{
+  position: relative;
+list-style-type: none;
+justify-content: center;
+top: 30%;
+}
+.footer-ul li{
+  margin-left: 3%;
+  cursor: pointer;
+  color: white;
+}
+.footer-ul li:hover{
+border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+/* ===================== media query ================================================================= */
+@media  (max-width: 500px) {
+  *{
+    margin: 0;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
+  body{
+    overflow-x: hidden;
   }
+ .moon{
+  display: none;
+ }
+ .shiba{
+  display: none;
+ }
+ .btnHow{
+  position: relative;
+  justify-content: center;
+  left: 30%;
+  top:8%
+ }
+ .btnBuy{
+  position:relative;
+ left: 15%;
+ top:8%
+
+ }
+ .row-1 h1{
+  text-align: center;
+  font-size: 30px;
+ }
+ .row-1 p{
+  text-align:center;
+  line-height: normal;
+  margin-top: 10%;
+ }
+ .row-2{
+  padding: 0;
+ }
+ 
+ .row-2 .col-our h1{
+  position: relative;
+  text-align: center;
+  /* top: -15%; */
+  color: green;
+  width: 100%;
+  padding: 0;
+ }
+ .row-2 .col-our p{
+  color: aliceblue;
+  line-height:30px;
+  /* font-size: 20px; */
+  margin-top: 4%;
+  opacity: .5;
+  /* width: 90%; */
+}
+.card-body{
+  position: relative;
+  top: 30%;
+ 
+}
+.card-body p{
+  width: 100%;
+  padding: 0;
+  
+}
+
+ .row-2 .col-our{
+  width: 100%;
+  text-align: center;
+  padding:10px;
+ }
+ .col-our-2 p{
+  position: absolute;
+  margin-left:10%;
+  /* color: #c11e23; */
+ }
+
+
+ .mainCard .card{
+   width: 100%;
+  height: 10%; 
+  top:-70%;
+  padding: 11%;
+  background-position-x:8% ;
+ }
+
+.main-card-2 .card{
+  width: 100%;
+}
+
+
+/* ============================================ how to buy =============================== */
+.main-Buy{
+  /* padding: 0;
+  margin: 0; */
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.row-4 .col-our h1{
+font-size: 35px;
+}
+.row-4 .col-our p{
+  font-size: 17px;
+  opacity: .6;
+  width: 90%;
+  text-align: justify;
+}
+.row-4 .col-our{
+  /* margin-top: -50%; */
+}
+.row-4{
+ /* flex-direction: column-reverse;
+ grid-column-start: 2; */
+/* order: last; */
+}
+.btnEnd1{
+  position: relative;
+  width: 31%;
+}
+.quick{
+  font-size: 35px;
+  /* top:5% */
+ top: 5%;
+}
+ .main-Buy .col-circle{
+  margin-top:20%;
+  top: 10%; 
+  position: relative;
+} 
+
+.col-circle .circle{
+  position: relative;
+  width: 111%;
+  right: 21%;
+  top:-72%;
+}
+.col-circle .astro{
+  position:initial ;
+  width: 54%;
+  height: 62%;
+  margin-top: -2%;
+  padding: 6%;
+  margin-left: 22%;
+}
+.main-mini-shib{
+width: 54%;
+left: 19%;
+}
+.main-mini-shib .circle-shib1{
+  left: -29%;
+  position: relative;
+  animation: move 10s infinite;
+ }
+ .main-mini-shib .circle-shib2{
+   left: 40%;
+   position: absolute;
+   top:-97%;
+   animation: move 30s infinite;
+  }
+  .main-mini-shib .circle-shib3{
+   position: relative;
+   left: 69%;
+   animation: move 30s infinite;
+   position: relative;
+   margin-top: 23%;
+  }
+
+
+
+/* =====================================quick============================================================= */
+.main-quick{
+margin-top:15%;
+width:100%;
+padding: 0;
+/* display:grid; */
+}
+.yellow-line{
+  display: none;
+}
+.quick-num{
+  position: relative;
+  width: 15%;
+  height: 15%;
+  font-size: 25px;
+  right: 20%;
+}
+.main-quick .card-text h2{
+  position: relative;
+  margin-top:10%;
+  width: 75%;
+  right: 15%;
+  word-spacing: 15px;
+  /* margin: 0; */
+}
+.main-quick .card-text p{
+  position: relative;
+  width: 100%;
+  padding:8%;
+  right: 10%;
+  margin-top: -5%;
+}
+.card-main{
+  /* background-color: red; */
+  /* margin-top:-3%; */
+}
+.divider{
+  position: relative;
+  margin-top:-3%;
+}
+/* ======================================= Shiba app ======================================= */
+
+.row-5{
+  position: relative;
+  margin-top:20%;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  
+  
+}
+.row-5 h1 {
+  /* color: red; */
+  margin-left:10%;
+  left:10%;
+
+}
+.row-5 p{
+  margin-left: 10%;
+}
+.certik{
+  margin-left:7%;
+}
+.shiba-col{
+  position: relative;
+  margin-top: 20%;
+  top: 20%;
+}
+.btnShibaApp{
+  position: relative;
+  margin-top: 20%;
+  top:-15%;
+  width: 50%;
+  height: 12%;
+  margin-right: 5%;
+}
+/* =========================================== slider ==================================================== */
+.slider img{
+  width: 120px;
+  height: 130px;
+  justify-content:center ;
+  left: 50%;
+ margin-top: 20%;
+}
+
+
+/* ===================================== recuse ============================================== */
+.recuse{
+  width: 90%;
+  margin-top: 8%;
+}
+.recuse h1{
+  position: relative;
+  left: 10%;
+}
+.recuse p{
+  position: relative;
+  left: 10%;
+}
+.btnRescue{
+  /* position: relative; */
+  top:20%;
+  left: 25%;
+  width: 60%;
+  height: 40%;
+}
+.candy-1{
+ position: relative;
+  top: -5%;
+  left: 5%;
+
+}
+.candy-2{
+  position: relative;
+  top: 10%;
+  margin-left: 20%;
+}
+.candy-3{
+  position: relative;
+  right: 35%;
+  top: -10%;
+
+
+}
+.amazon{
+  position: relative;
+  top: -5%;
+ 
+}
+
+/* ===============================================community======================================= */
+
+.community{
+  padding-top:15%;
+  /* width: 100%; */
+  /* height: 160%; */
+}
+.community p{
+  width: 80%;
+  left: 10%;
+  text-align: center
+}
+.copy{
+  right: 30%;
+  height: 150%;
+  width: 100%;
+  /* padding-bottom: 10%; */
+}
+.copy p{
+  position: relative;
+  /* right:20%; */
+  /* padding-right: 20%; */
+  font-size: 15px;
+  text-align: center;
+}
+.copy button{
+  position: relative;
+ margin-top: 15%;
+ margin-left: -55%;
+ font-size:120%;
+ width: 50%;
+ height: 10vw;
+ /* padding-left: 10%; */
+}
+/* =========================================== icons================================== */
+.main-icon{
+  padding-top: 20%;
+}
+.icons{
+  /* right: 50%; */
+  /* padding: 0; */
+  margin-top:10%;
+ margin-left: -20%;
+
+}
+.icon-text{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+
+}
+.icons p{
+  /* color: red; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }

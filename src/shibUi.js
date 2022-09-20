@@ -41,7 +41,7 @@ class Shiba_Ui extends React.Component {
                             <p>
                             SHIB, LEASH, BONE — ShibaSwap — Innovative Reward System — The Shiba Incubator — And more. 585k+ Community Members and Growing Fast!
                             </p>
-                            <button className="btnHow">How To Buy</button>
+                            <button className="btnHow">How To Buy This Token</button>
                             <button className="btnBuy">Read WoofPaper v2</button>
                         </div>
                         <div class="col-lg-5">
